@@ -1,0 +1,65 @@
+.cover-header {
+    position: relative;
+    margin-top: 15%;
+    /* Rest of your styles */
+  }
+
+  .photo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .photo-container img {
+    position: relative;
+    z-index: 1;
+    max-width: 75%;
+    height: auto;
+  }
+
+  .photo-container img:first-child {
+    z-index: 2;
+  }
+
+  .content {
+    text-align: center;
+    margin-top: 30%;
+    /* Additional styles for the content */
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    color: #888;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
