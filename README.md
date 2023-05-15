@@ -1,2 +1,2 @@
-# dressmeapp
+# dressmeapp-v2
 thesis
